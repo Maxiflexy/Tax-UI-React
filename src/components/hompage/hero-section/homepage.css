@@ -1,0 +1,89 @@
+#hero {
+    margin-top: 160px;
+}
+
+.hero__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.hero__wrapper  h1, .hero__wrapper span {
+    font-size: 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hero__wrapper span {
+    color: rgb(74, 74, 240);
+}
+
+.hero__wrapper  .booking{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 1.5rem;
+    color: #334155;
+}
+
+.hero__btns {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.hero__btns  a {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    border-radius: 24px;
+    padding: .5rem 1rem;
+}
+
+.first {
+    background-color: #0f172a;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.second {
+    border: 1px solid #c8ccd1;
+    display: flex;
+    align-items: center;
+    color: #334155;
+    font-weight: 500;
+    font-size: 14px;
+    gap: .3rem;
+}
+
+.hero__btn > .bx-play {
+    color:#225cdb;
+}
+
+.Trusted__companies {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.companies img{
+    width: 80%;
+}
