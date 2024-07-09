@@ -66,7 +66,7 @@ html {
     display: none;
 } */
 
-#hero {
+/* #hero {
     margin-top: 160px;
 }
 
@@ -154,9 +154,9 @@ html {
 
 .companies img{
     width: 80%;
-}
+} */
 
-#features {
+/* #features {
     padding: 8rem 0;
     background-color: #2563eb;
     color: #fff;
@@ -215,9 +215,9 @@ html {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
-}
+} */
 
-#business__task{
+/* #business__task{
     padding: 8rem 0;
 }
 
@@ -297,10 +297,10 @@ html {
     width: 90%;
     height: 90%;
     border-radius: 16px;
-}
+} */
 
 
-.get_started__container {
+/* .get_started__container {
     position: relative;
     overflow: hidden;
     background-color: #2563eb;
@@ -357,9 +357,9 @@ html {
     background-color: #fff;
     font-weight: 500;
     font-size: 14px;
-}
+} */
 
-#testimonial {
+/* #testimonial {
     background-color: #f8fafc;
     padding: 8rem 0;
 }
@@ -453,7 +453,7 @@ html {
     width: 56px;
     height: 56px;
     object-fit: cover;
-}
+} */
 
 #pricing {
     background-color: #0f172a;
