@@ -455,7 +455,7 @@ html {
     object-fit: cover;
 } */
 
-#pricing {
+/* #pricing {
     background-color: #0f172a;
     padding: 8rem 0;
     color: #fff;
@@ -555,9 +555,9 @@ html {
 
 i {
     font-size: 24px;
-}
+} */
 
-.faq {
+/* .faq {
     padding: 8rem 0;
     position: relative;
     overflow: hidden;
@@ -609,7 +609,7 @@ i {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     line-height: 1.7;
-}
+} */
 
 #footer{
     padding-top: 8rem;

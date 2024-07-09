@@ -1,0 +1,101 @@
+#pricing {
+    background-color: #0f172a;
+    padding: 8rem 0;
+    color: #fff;
+}
+
+.pricing__container > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.pricing__container > p {
+    text-align: center;
+    max-width: 700px;
+    font-family: "Inter", sans-serif;
+    color: #94a3b8;
+    font-size: 18px;
+    margin: 2rem auto;
+}
+
+.pricing__wrapper {
+    margin-top: 5rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.pricing__card {
+    width: 100%;
+    padding: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.pricing__card > h1 {
+    font-size: 3rem;
+    margin-bottom: 1.7rem;
+}
+
+.pricing__card > p {
+    font-size: 20px;
+}
+
+.pricing__card .title {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 95%;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #94a3b8;
+
+}
+
+.pricing__card > a {
+    display: block;
+    border: 1px solid #4a515b;    ;
+    text-align: center;
+    border-radius: 24px;
+    text-decoration: none;
+    margin: 2rem 0;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #e2e8f0;
+    font-size: 14px;
+
+}
+
+.popular > a {
+   background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+.pricing__card > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: .8rem 0;
+    color: #cbd5e1;
+}
+
+.popular > div, .popular > .title {
+    color: #fff;
+} 
+
+.pricing__card > div  p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.popular {
+    background-color: #2563eb;
+    border-radius: 24px;
+}
+
+i {
+    font-size: 24px;
+}

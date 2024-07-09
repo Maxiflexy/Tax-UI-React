@@ -1,0 +1,53 @@
+.faq {
+    padding: 8rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#faq img {
+    position: absolute;
+    left: 1/2;
+    top: 0;
+    transform: translateY(-25%) translateX(-30%);
+    max-width: none;
+}
+.faq__container {
+    position: relative;
+}
+
+.faq__container .title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.faq__container .sub__title {
+    margin-bottom: 3rem;
+    width: 52%;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.faq__wrapper {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.faq__card > div {
+    margin-bottom: 2.5rem;
+}
+
+.faq__card > div > h1 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+
+}
+
+.faq__card > div > p{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
