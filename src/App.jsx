@@ -15,13 +15,6 @@ function App() {
   return (
     <div>
       <NavBar />
-      <HereSection />
-      <Features />
-      <BusinessTask />
-      <GetStarted />
-      <Testimonials />
-      <Pricing />
-      <FaqSection />
       <Footer />
     </div>
   );
