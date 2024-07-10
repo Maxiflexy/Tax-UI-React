@@ -24,6 +24,8 @@
     color: #0f172a;
 }
 
+
+
 .footer__info {
     height: 100%;
     margin-top: 3rem;
@@ -31,6 +33,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 
 .bxl-twitter{
     margin-right: 2rem;
