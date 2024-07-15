@@ -13,6 +13,7 @@ import Features from "./components/hompage/features-section/Features";
 import Testimonials from "./components/hompage/testimonies/Testimonials";
 import Pricing from "./components/hompage/pricing/Pricing";
 import FaqSection from "./components/hompage/faq-section/FaqSection";
+import BusinessTask from "./components/hompage/business-task/BusinessTask";
 
 const Layout = () => {
   return (
@@ -34,6 +35,7 @@ const router = createBrowserRouter(
     <Route path="/testimonial" element={<Testimonials />} />
     <Route path="/pricing" element={<Pricing />} />
     <Route path="/faq" element={<FaqSection />} />
+    <Route path="/business" element={<BusinessTask />} />
   </Route> 
 )
 );

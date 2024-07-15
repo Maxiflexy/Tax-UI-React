@@ -56,9 +56,9 @@ function NavBar() {
               Sign in
             </a>
             <div>
-              <a className="nav__btn__desktop" href="">
+              <Link className="nav__btn__desktop" to="/business">
                 Get started today
-              </a>
+              </Link>
               <a className="nav__btn__mobile" href="">
                 Get started
               </a>
