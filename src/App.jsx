@@ -38,7 +38,6 @@ const router = createBrowserRouter(
     <Route path="/business" element={<BusinessTask />} />
   </Route> 
 )
-
 );
 
 function App() {
