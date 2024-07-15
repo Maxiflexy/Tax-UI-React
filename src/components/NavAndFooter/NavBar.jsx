@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./nav-style.css"
 
 function NavBar() {
@@ -34,15 +35,21 @@ function NavBar() {
                 fill="#0F172A"
               />
             </svg>
-            <a className="nav__link" href="#features">
+            <Link className="nav__link" to="/">
+              Home
+            </Link>
+            <Link className="nav__link" to="/features">
               Features
-            </a>
-            <a className="nav__link" href="#testimonial">
+            </Link>
+            <Link className="nav__link" to="/testimonial">
               Testimonials
-            </a>
-            <a className="nav__link" href="#pricing">
+            </Link>
+            <Link className="nav__link" to="/pricing">
               Pricing
-            </a>
+            </Link>
+            <Link className="nav__link" to="/faq">
+              FAQ
+            </Link>
           </div>
           <div className="nav__item">
             <a className="nav__link" href="#">
