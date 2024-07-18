@@ -43,8 +43,9 @@ const router = createBrowserRouter(
     <Route path="/pricing" element={<Pricing />} />
 
     <Route path="/faq" element={<FaqSection />} />
-    
+
     <Route path="/business" element={<BusinessTask />} />
+    
   </Route> 
 )
 );
